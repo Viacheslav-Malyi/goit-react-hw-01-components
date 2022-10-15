@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+}
+
+.tansaction__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 600px;
+  background-color: #b1aeae;
+  border-radius: 10px;
+  box-shadow: 0px 0px 19px #494b4b;
+}
+
+.thead {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #2de5b9;
+}
+
+.tansaction__header {
+  width: 600px;
+  height: 70px;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+.tansaction__headerCell {
+  width: 200px;
+  text-align: center;
+  border-right: 1px solid #303031;
+}
+.tansaction__headerCell:nth-child(4n-1) {
+  border-right: 0;
+}
+
+.tansaction__body {
+  width: 600px;
+}
+
+.tansaction__bodyLine {
+  width: 600px;
+  display: flex;
+  color: #090909;
+}
+
+.tansaction__bodyLine:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.tansaction__bodyLine td {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #303031;
+}
+
+.tansaction__bodyLine td:nth-child(4n-1) {
+  border-right: 0;
+}
